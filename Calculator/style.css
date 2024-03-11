@@ -1,0 +1,52 @@
+body {
+    font-family: Poppins;
+    margin: 0;
+}
+
+table {
+   width: 100%;
+   height: 70vh;
+   color: white;
+   background-color: rgb(36, 35, 35);
+}
+
+td {
+    width: 25%;
+    text-align: center;
+    background-color: #151414;
+    font-size: 25px;
+    font-family: Poppins;
+}
+
+td:hover {
+    background-color: rgb(61, 59, 59);
+    cursor: pointer;
+}
+
+#resultArea {
+    height: 30vh;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    font-size: 65px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#result {
+   background-color: rgb(63, 75, 200); 
+}
+
+#result:hover {
+    background-color:rgb(106, 117, 233);
+}
+
+.highlight {
+    background-color: rgb(28, 26, 26);
+}
+
+.highlight:hover {
+    background-color: rgb(59, 58, 58);
+}
